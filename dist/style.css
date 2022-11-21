@@ -1,0 +1,12 @@
+body {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+input::-moz-placeholder {
+    color: steelblue;
+}
+
+input::placeholder {
+    color: steelblue;
+}
