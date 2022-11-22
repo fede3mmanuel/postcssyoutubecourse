@@ -5,6 +5,9 @@ module.exports = {
             stage: 1, 
         }),
         require('precss'),
-        require('postcss-import')
+        require('postcss-import'),
+        require('postcss-assets')({
+            loadPaths: ['dist/img']
+        }),
     ]
 }
